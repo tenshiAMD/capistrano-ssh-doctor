@@ -108,7 +108,7 @@ namespace :ssh do
 
   desc 'Perform ssh doctor checks'
   task :doctor do
-    invoke 'ssh:config:git'
+    #invoke 'ssh:config:git'
     invoke 'ssh:config:repo_url'
     invoke 'ssh:config:password'
     invoke 'ssh:config:agent_forwarding'
